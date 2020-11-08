@@ -3,7 +3,7 @@
 # How to authenticate without using a config.json file
 
 This is necessary when you run scripts with the aanalytics2 library on certain server environments (e.g. Google Cloud) instead of locally (e.g. in a Jupyter Notebook).
-In such environments, referring to config.json may not work.
+In such environments, referring to config.json may not work, mostly because the path to your private key file cannot be made dynamic easily inside a simple .json file.
 
 In that case, you can pass the variables to the configure method available.
 
