@@ -1040,7 +1040,7 @@ class Analytics:
             df_calc_metrics.to_csv('calculated_metrics.csv', sep='\t')
         return df_calc_metrics
 
-    def createCalculatedMetrics(self, metricJSON: dict = None) -> object:
+    def createCalculatedMetric(self, metricJSON: dict = None) -> object:
         """
         Method that create a specific calculated based on the dictionary passed to it.
         Arguments:
